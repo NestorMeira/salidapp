@@ -1,0 +1,41 @@
+.redes{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #4D0448;
+    color: white;
+    width: auto;
+    height: 62px;
+    .in{width: 4%; height: 50%;}
+    .wpp{width: 4%; height: 50%;}
+    .face{width: 4%; height: 50% ;margin-right: 5%;}
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    img{
+        width:25%;
+        height:auto;
+        padding-top: 1%;
+    }
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(#360133, #4D0448, #770570);
+    height: 119px;
+
+    button{
+        width: 15%;
+        height: 71px;
+        font-size: 22px;
+        background: transparent;
+        border: none;
+        color:rgba(253, 241, 251, 1);
+        margin: auto 5%;
+        font-weight: bold;
+    }
+}
