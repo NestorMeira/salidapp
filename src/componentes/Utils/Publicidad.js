@@ -76,7 +76,7 @@ const Publicidad = [
         id:8,
         imagen:"carnaval.jpg",
         titulo:"Carnaval",
-        categoria:"fiesta",
+        categoria:"fiestas",
         posicion:"normal",
         fecha:"27 y 28 de febrero 2022.",
         precio:"Entrada gratis.",

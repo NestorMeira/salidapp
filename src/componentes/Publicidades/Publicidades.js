@@ -8,7 +8,6 @@ const {titulo, imagen,fecha,hora,lugar,precio,telefono} = data
 
 
     return(
-        <div className="contenedor">
         <div className="contenedor-publi">
             <h2>{titulo}</h2>
             <div className='contenedor-img'>
@@ -21,7 +20,6 @@ const {titulo, imagen,fecha,hora,lugar,precio,telefono} = data
             <h3>{precio}</h3>
             <h3>{telefono}</h3>
             </div>
-        </div>
         </div>
     )
 }

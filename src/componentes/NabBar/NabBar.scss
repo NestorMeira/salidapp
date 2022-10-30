@@ -23,11 +23,15 @@
 }
 nav{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     background:linear-gradient(#360133, #4D0448, #770570);
     height: 119px;
-
+        .linea{
+          text-decoration: none;
+          color: #F9FFFB;
+        }
+  
     button{
         width: 15%;
         height: 71px;
@@ -35,7 +39,49 @@ nav{
         background: transparent;
         border: none;
         color:rgba(253, 241, 251, 1);
-        margin: auto 5%;
+        margin: auto 15%;
         font-weight: bold;
+    }
+    ul {
+        list-style-type: none;
+    }
+    li {
+       color:rgba(253, 241, 251, 1);
+       font-size: 29px;
+       font-weight: bold;
+    }
+               
+   .submenu{
+        display: none;
+        
+    }
+     .submenu-categorias{
+        position: absolute;
+        display: none;
+        background: #F9FFFB;
+        border-radius: 15px;
+        width: 15%;
+      li{
+        color:#000000;
+        font-size: 23px;
+        border-bottom:solid 1px #71056B;
+        margin: 3%;
+        padding: 1px;
+      }
+      .linea2{
+        text-decoration: none;
+        color:#000000;
+      }
+    }
+    .menu li:hover ul{
+        display: flex;
+        flex-direction: column; 
+    }
+}
+#categorias{
+    margin-left: -50px;
+    .flecha{
+        font-size: 39px;
+        position: absolute;
     }
 }

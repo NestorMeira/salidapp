@@ -1,24 +1,16 @@
-.contenedor{
- display: inline-block;
-
-
-    .contenedor-publi{   
+ .contenedor-publi{   
         display: flex;
         flex-direction:column;
-       
-        
         background: rgba(222, 189, 217, 1);
         width: 490px;
         height: 570px;
         margin: 30px 10px 10px 10px ;
         border-radius: 20px;
-        
         h2{
             font-size: 22px;
             margin-top:8px ;
             margin-left: 6%;
-            font-weight:500;
-           
+            font-weight:500;    
         }
         h3{
             font-size: 17px;
@@ -33,7 +25,5 @@
                 height:330px;
                 border-radius: 20px;
                }
-        }
-      
+        } 
     }
-}
